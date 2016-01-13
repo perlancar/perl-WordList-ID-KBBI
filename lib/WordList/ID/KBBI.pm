@@ -6,6 +6,8 @@ package WordList::ID::KBBI;
 use WordList;
 our @ISA = qw(WordList);
 
+# STATS
+
 1;
 # ABSTRACT: Indonesian words from Kamus Besar Bahasa Indonesia
 
