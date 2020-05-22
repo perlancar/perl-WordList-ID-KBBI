@@ -6,10 +6,20 @@ package WordList::ID::KBBI;
 use WordList;
 our @ISA = qw(WordList);
 
+use Role::Tiny::With;
+with 'WordListRole::RandomSeekPick';
+
 # STATS
 
 1;
 # ABSTRACT: Indonesian words from Kamus Besar Bahasa Indonesia
+
+=head1 DESCRIPTION
+
+This wordlist uses random-seek picking, which gives higher probability for
+longer words. See L<File::RandomLine> for more details.
+
+=cut
 
 __DATA__
 Adam
