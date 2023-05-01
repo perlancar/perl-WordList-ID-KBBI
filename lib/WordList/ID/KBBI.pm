@@ -1,6 +1,10 @@
 package WordList::ID::KBBI;
 
+use strict;
+
+# AUTHORITY
 # DATE
+# DIST
 # VERSION
 
 use WordList;
